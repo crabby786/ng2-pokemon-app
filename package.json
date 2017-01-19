@@ -1,7 +1,7 @@
 {
-  "name": "angular-quickstart",
+  "name": "ng2-pokemon-app",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "description": "A awesome app for managing pokemons, to train at Angular 2.x.",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",
