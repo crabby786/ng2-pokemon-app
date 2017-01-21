@@ -9,7 +9,7 @@ import { POKEMONS } from './mock-pokemons';
 		<div class='container'>
 		<div class="row">
 		<div *ngFor='let pokemon of pokemons' class="col s6 m4">
-		  <div class="card horizontal" (click)="selectPokemon(pokemon)">
+		  <div class="card horizontal" (click)="selectPokemon(pokemon)" pkmn-shadow-card>
 		    <div class="card-image">
 		      <img [src]="pokemon.picture">
 		    </div>
