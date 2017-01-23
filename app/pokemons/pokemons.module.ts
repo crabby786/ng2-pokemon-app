@@ -7,6 +7,8 @@ import { DetailPokemonComponent } from './detail-pokemon.component';
 import { ShadowCardDirective }    from './shadow-card.directive';
 import { PokemonTypeColorPipe }   from './pokemon-type-color.pipe';
 
+import { PokemonsService } from './pokemons.service';
+
 @NgModule({
 	imports: [
 		CommonModule,
@@ -18,6 +20,6 @@ import { PokemonTypeColorPipe }   from './pokemon-type-color.pipe';
 		ShadowCardDirective,
 		PokemonTypeColorPipe
 	],
-	providers: []
+	providers: [PokemonsService]
 })
 export class PokemonsModule { }
