@@ -7,6 +7,8 @@ import { ListPokemonComponent }   from './list-pokemon.component';
 import { DetailPokemonComponent } from './detail-pokemon.component';
 import { EditPokemonComponent } from './edit-pokemon.component';
 import { PokemonFormComponent } from './pokemon-form.component';
+import { PokemonSearchComponent } from './pokemon-search.component';
+import { LoaderComponent } from './loader.component';
 import { ShadowCardDirective }    from './shadow-card.directive';
 import { PokemonTypeColorPipe }   from './pokemon-type-color.pipe';
 
@@ -23,6 +25,8 @@ import { PokemonsService } from './pokemons.service';
 		DetailPokemonComponent,
 		EditPokemonComponent,
 		PokemonFormComponent,
+		PokemonSearchComponent,
+		LoaderComponent,
 		ShadowCardDirective,
 		PokemonTypeColorPipe
 	],

@@ -10,6 +10,7 @@ import { PokemonsService } from './pokemons.service';
     <h1 class='center'>Pokémons</h1>
       <div class='container'>
         <div class="row">
+				<pokemon-search></pokemon-search>
         <div *ngFor='let pokemon of pokemons' class="col s6 m4">
           <div class="card horizontal" (click)="selectPokemon(pokemon)" pkmn-shadow-card>
             <div class="card-image">
