@@ -65,14 +65,13 @@ export class DetailPokemonComponent implements OnInit {
 
 	ngOnInit(): void {
 		let id = +this.route.snapshot.params['id'];
-		this.pokemon = this.pokemonsService.getPokemon(id);
+		this.pokemonsService.getPokemon(id).then(pokemon => this.pokemon = pokemon);
 	}
 
 	goBack(): void {
 		this.router.navigate(['/pokemons']);
 	}
 
-	// On crée une méthode qui s'occupe de la redirection
 	goEdit(pokemon: Pokemon): void {
 		let link = ['/pokemon/edit', pokemon.id];
 		this.router.navigate(link);
