@@ -13,6 +13,7 @@ import { ShadowCardDirective }    from './shadow-card.directive';
 import { PokemonTypeColorPipe }   from './pokemon-type-color.pipe';
 
 import { PokemonsService } from './pokemons.service';
+import { AuthGuard } from '../auth-guard.service';
 
 @NgModule({
 	imports: [
@@ -30,6 +31,6 @@ import { PokemonsService } from './pokemons.service';
 		ShadowCardDirective,
 		PokemonTypeColorPipe
 	],
-	providers: [PokemonsService]
+	providers: [PokemonsService, AuthGuard]
 })
 export class PokemonsModule { }
