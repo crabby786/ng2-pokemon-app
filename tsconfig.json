@@ -11,5 +11,8 @@
     "suppressImplicitAnyIndexErrors": true,
     "removeComments": false,
     "outDir": "dist"
-  }
+  },
+  "exclude": [
+    "node_modules/**/*"
+  ]
 }

@@ -30,7 +30,7 @@ export class PokemonFormComponent implements OnInit {
 	}
 
 	// Méthode appelé lorsque l'utilisateur ajoute ou retire un type au pokémon en cours d'édition.
-	selectType($event, type: string): void {
+	selectType($event: any, type: string): void {
 		let checked = $event.target.checked;
 		if (checked) {
 			this.pokemon.types.push(type);

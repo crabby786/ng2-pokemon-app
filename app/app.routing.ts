@@ -1,8 +1,8 @@
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ListPokemonComponent } from './list-pokemon.component';
-import { DetailPokemonComponent } from './detail-pokemon.component';
+import { ListPokemonComponent } from './pokemons/list-pokemon.component';
+import { DetailPokemonComponent } from './pokemons/detail-pokemon.component';
 
 const appRoutes: Routes = [
 	{ path: 'pokemons', component: ListPokemonComponent },
