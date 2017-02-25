@@ -12,15 +12,15 @@
     map: {
       app: 'dist', // location of transpiled app files
       // angular minimized umd bundles
-      '@angular/core': 'npm:@angular/core/bundles/core.umd.min.js',
-      '@angular/common': 'npm:@angular/common/bundles/common.umd.min.js',
-      '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.min.js',
-      '@angular/platform-browser': 'npm:@angular/platform-browser/bundles/platform-browser.umd.min.js',
-      '@angular/platform-browser-dynamic': 'npm:@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.min.js',
-      '@angular/http': 'npm:@angular/http/bundles/http.umd.min.js',
-      '@angular/router': 'npm:@angular/router/bundles/router.umd.min.js',
+      '@angular/core': 'npm:@angular/core@~2.4.0/bundles/core.umd.min.js',
+      '@angular/common': 'npm:@angular/common@~2.4.0/bundles/common.umd.min.js',
+      '@angular/compiler': 'npm:@angular/compiler@~2.4.0/bundles/compiler.umd.min.js',
+      '@angular/platform-browser': 'npm:@angular/platform-browser@~2.4.0/bundles/platform-browser.umd.min.js',
+      '@angular/platform-browser-dynamic': 'npm:@angular/platform-browser-dynamic@~2.4.0/bundles/platform-browser-dynamic.umd.min.js',
+      '@angular/http': 'npm:@angular/http@~2.4.0/bundles/http.umd.min.js',
+      '@angular/router': 'npm:@angular/router@~3.4.0/bundles/router.umd.min.js',
       '@angular/router/upgrade': 'npm:@angular/router/bundles/router-upgrade.umd.min.js',
-      '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.min.js',
+      '@angular/forms': 'npm:@angular/forms@~2.4.0/bundles/forms.umd.min.js',
       '@angular/upgrade': 'npm:@angular/upgrade/bundles/upgrade.umd.min.js',
       '@angular/upgrade/static': 'npm:@angular/upgrade/bundles/upgrade-static.umd.min.js',
       // other libraries
